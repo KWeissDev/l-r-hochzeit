@@ -3610,7 +3610,7 @@ input, select, textarea {
 					-webkit-transition-delay: 0.25s;
 					-ms-transition-delay: 0.25s;
 					transition-delay: 0.25s;
-					background: linear-gradient(#fff, #fff) left center/calc(50% - 0.75em) 2px no-repeat, linear-gradient(#fff, #fff) right center/calc(50% - 0.75em) 2px no-repeat;
+					background: linear-gradient(#fff, #fff) left center/calc(50% - 0.9em) 2px no-repeat, linear-gradient(#fff, #fff) right center/calc(50% - 0.9em) 2px no-repeat;
 					color: #fff;
 					content: '\2665';
 					display: -moz-flex;
@@ -3619,6 +3619,7 @@ input, select, textarea {
 					display: flex;
 					font-size: 0.65em;
 					height: 1.2em;
+					padding: 0 0.15em;
 					-moz-align-items: center;
 					-webkit-align-items: center;
 					-ms-align-items: center;
@@ -3690,7 +3691,7 @@ input, select, textarea {
 				background-position: center;
 				background-repeat: no-repeat;
 				background-size: contain;
-				bottom: 1.25em;
+				bottom: 2em;
 				content: '';
 				display: block;
 				height: 1.5em;
