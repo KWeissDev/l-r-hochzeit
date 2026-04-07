@@ -1354,7 +1354,24 @@
 				font-size: 2.75em;
 				font-weight: 400;
 				letter-spacing: 0.05em;
+				padding-bottom: 0.7em;
+				position: relative;
 				text-transform: none;
+
+				&:after {
+					content: '\2665';
+					color: #c7868f;
+					font-size: 0.5em;
+					line-height: 1;
+					background-color: #f2e7d5;
+					padding: 0 0.35em;
+					position: absolute;
+					left: 50%;
+					bottom: -0.15em;
+					transform: translateX(-50%);
+					display: block;
+					height: auto;
+				}
 			}
 		}
 
