@@ -6,6 +6,12 @@
 @import 'libs/html-grid';
 @import 'fontawesome-all.min.css';
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic');
+@font-face {
+	font-family: 'Cookie';
+	font-style: normal;
+	font-weight: 400;
+	src: url('https://fonts.bunny.net/cookie/files/cookie-latin-400-normal.woff2') format('woff2');
+}
 
 /*
 	Spectral by HTML5 UP
@@ -1340,6 +1346,15 @@
 
 		&.style1 {
 			@include wrapper(accent1);
+
+			h2.sommerhochzeit {
+				color: #c24f78;
+				font-family: 'Cookie', 'Open Sans', Helvetica, sans-serif;
+				font-size: 2.75em;
+				font-weight: 400;
+				letter-spacing: 0.05em;
+				text-transform: none;
+			}
 		}
 
 		&.style2 {
