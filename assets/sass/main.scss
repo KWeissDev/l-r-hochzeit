@@ -1511,10 +1511,15 @@
 				border: 0;
 				display: block;
 				height: inherit;
+				font-family: 'Cookie', 'Open Sans', Helvetica, sans-serif;
+				font-size: 2.2em;
+				font-weight: 400;
 				line-height: inherit;
+				letter-spacing: 0.04em;
+				text-transform: none;
 
 				@include breakpoint('<=small') {
-					font-size: 0.8em;
+					font-size: 1.65em;
 				}
 			}
 		}
