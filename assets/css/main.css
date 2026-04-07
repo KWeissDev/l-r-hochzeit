@@ -2321,6 +2321,10 @@ input, select, textarea {
 				padding-right: 3.5em;
 			}
 
+			ul.icons.major.single-icon li {
+				padding-right: 0;
+			}
+
 				@media screen and (max-width: 736px) {
 
 					ul.icons.major li {
