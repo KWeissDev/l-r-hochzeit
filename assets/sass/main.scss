@@ -1598,16 +1598,22 @@
 			position: relative;
 			z-index: 1;
 
-			&:before, &:after {
-				@include vendor('transition', 'width 0.85s ease');
-				@include vendor('transition-delay', '0.25s');
-				background: _palette(fg-bold);
-				content: '';
-				display: block;
-				height: 2px;
-				position: absolute;
-				width: 100%;
-			}
+				&:before, &:after {
+					@include vendor('transition', 'width 0.85s ease');
+					@include vendor('transition-delay', '0.25s');
+					background:
+						linear-gradient(_palette(fg-bold), _palette(fg-bold)) left center / calc(50% - 0.75em) 2px no-repeat,
+						linear-gradient(_palette(fg-bold), _palette(fg-bold)) right center / calc(50% - 0.75em) 2px no-repeat;
+					color: _palette(fg-bold);
+					content: '♥';
+					display: block;
+					font-size: 0.65em;
+					height: 1em;
+					line-height: 1;
+					position: absolute;
+					text-align: center;
+					width: 100%;
+				}
 
 			&:before {
 				top: 0;
