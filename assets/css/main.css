@@ -3629,6 +3629,10 @@ input, select, textarea {
 					-ms-justify-content: center;
 					justify-content: center;
 					line-height: 1;
+					-moz-transform: translateX(0.08em);
+					-webkit-transform: translateX(0.08em);
+					-ms-transform: translateX(0.08em);
+					transform: translateX(0.08em);
 					position: absolute;
 					text-align: center;
 					width: 100%;
