@@ -3613,24 +3613,35 @@ input, select, textarea {
 					background: linear-gradient(#fff, #fff) left center/calc(50% - 0.75em) 2px no-repeat, linear-gradient(#fff, #fff) right center/calc(50% - 0.75em) 2px no-repeat;
 					color: #fff;
 					content: '\2665';
-					display: block;
+					display: -moz-flex;
+					display: -webkit-flex;
+					display: -ms-flex;
+					display: flex;
 					font-size: 0.65em;
-					height: 1em;
+					height: 1.2em;
+					-moz-align-items: center;
+					-webkit-align-items: center;
+					-ms-align-items: center;
+					align-items: center;
+					-moz-justify-content: center;
+					-webkit-justify-content: center;
+					-ms-justify-content: center;
+					justify-content: center;
 					line-height: 1;
 					position: absolute;
 					text-align: center;
 					width: 100%;
 				}
 
-			#banner h2:before {
-				top: 0;
-				left: 0;
-			}
+				#banner h2:before {
+					top: -0.7em;
+					left: 0;
+				}
 
-			#banner h2:after {
-				bottom: 0;
-				right: 0;
-			}
+				#banner h2:after {
+					bottom: -0.7em;
+					right: 0;
+				}
 
 		#banner p {
 			letter-spacing: 0.225em;
