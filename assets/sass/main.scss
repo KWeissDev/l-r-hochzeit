@@ -1621,12 +1621,12 @@
 			opacity: 0;
 		}
 
-		10%,
-		45% {
+		7%,
+		31% {
 			opacity: 1;
 		}
 
-		50% {
+		35% {
 			opacity: 0;
 		}
 	}
@@ -1648,7 +1648,7 @@
 			z-index: 0;
 
 			.banner-slide {
-				animation: bannerBackgroundSlideshow 10s infinite;
+				animation: bannerBackgroundSlideshow 15s infinite;
 				background-attachment: fixed;
 				background-position: center center;
 				background-repeat: no-repeat;
@@ -1659,13 +1659,18 @@
 			}
 
 			.banner-slide-1 {
-				background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner_1.jpg");
+				background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
 				animation-delay: 0s;
 			}
 
 			.banner-slide-2 {
-				background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner_2.jpg");
+				background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner_1.jpg");
 				animation-delay: 5s;
+			}
+
+			.banner-slide-3 {
+				background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner_2.jpg");
+				animation-delay: 10s;
 			}
 		}
 
@@ -1680,7 +1685,7 @@
 			z-index: 0;
 
 			.banner-slide {
-				animation: bannerBackgroundSlideshow 10s infinite;
+				animation: bannerBackgroundSlideshow 15s infinite;
 				background-attachment: fixed;
 				background-position: center center;
 				background-repeat: no-repeat;
@@ -1691,13 +1696,18 @@
 			}
 
 			.banner-slide-1 {
-				background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner_1.jpg");
+				background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
 				animation-delay: 0s;
 			}
 
 			.banner-slide-2 {
-				background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner_2.jpg");
+				background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner_1.jpg");
 				animation-delay: 5s;
+			}
+
+			.banner-slide-3 {
+				background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner_2.jpg");
+				animation-delay: 10s;
 			}
 		}
 
