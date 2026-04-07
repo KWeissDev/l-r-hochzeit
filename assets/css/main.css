@@ -2850,7 +2850,9 @@ input, select, textarea {
 				text-transform: none;
 			}
 				.wrapper.style1 h2.sommerhochzeit:after {
-					content: '\2665';
+					content: '\f004';
+					font-family: 'Font Awesome 5 Free';
+					font-weight: 900;
 					color: #c7868f;
 					font-size: 0.5em;
 					line-height: 1;
@@ -3653,7 +3655,9 @@ input, select, textarea {
 					transition-delay: 0.25s;
 					background: linear-gradient(#fff, #fff) left center/calc(50% - 0.9em) 2px no-repeat, linear-gradient(#fff, #fff) right center/calc(50% - 0.9em) 2px no-repeat;
 					color: #fff;
-					content: '\2665';
+					content: '\f004';
+					font-family: 'Font Awesome 5 Free';
+					font-weight: 900;
 					display: -moz-flex;
 					display: -webkit-flex;
 					display: -ms-flex;
