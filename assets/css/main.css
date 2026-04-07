@@ -1,10 +1,5 @@
 @import url(fontawesome-all.min.css);
-@font-face {
-	font-family: 'Cookie';
-	font-style: normal;
-	font-weight: 400;
-	src: url('https://fonts.bunny.net/cookie/files/cookie-latin-400-normal.woff2') format('woff2');
-}
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
 
 /*
 	Spectral by HTML5 UP
@@ -108,7 +103,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #fff;
-		font-family: "Cookie", Helvetica, sans-serif;
+		font-family: "Open Sans", Helvetica, sans-serif;
 		font-size: 15pt;
 		font-weight: 400;
 		letter-spacing: 0.075em;
