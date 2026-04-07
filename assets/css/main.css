@@ -3449,7 +3449,7 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease;
 		-ms-transition: background-color 0.2s ease;
 		transition: background-color 0.2s ease;
-		background: #2e3842;
+		background: #c8b39b;
 		height: 3em;
 		left: 0;
 		line-height: 3em;
@@ -3473,6 +3473,7 @@ input, select, textarea {
 
 			#header h1 a {
 				border: 0;
+				color: #ffd6e8;
 				display: block;
 				height: inherit;
 				line-height: inherit;
@@ -3508,7 +3509,7 @@ input, select, textarea {
 
 					#header nav > ul > li > a {
 						border: 0;
-						color: #fff;
+						color: #ffd6e8;
 						display: block;
 						font-size: 0.8em;
 						letter-spacing: 0.225em;
