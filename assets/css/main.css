@@ -3508,7 +3508,7 @@ input, select, textarea {
 				display: block;
 				height: inherit;
 				font-family: 'Cookie', "Open Sans", Helvetica, sans-serif;
-				font-size: 2.2em;
+				font-size: 2em;
 				font-weight: 400;
 				line-height: inherit;
 				letter-spacing: 0.04em;
@@ -3518,7 +3518,7 @@ input, select, textarea {
 				@media screen and (max-width: 736px) {
 
 					#header h1 a {
-						font-size: 1.65em;
+						font-size: 1.5em;
 					}
 
 				}
