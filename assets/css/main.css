@@ -4002,6 +4002,12 @@ input, select, textarea {
 		padding-top: 0;
 	}
 
+	body.landing #header {
+		position: -webkit-sticky;
+		position: sticky;
+		top: 0;
+	}
+
 	body.landing #footer {
 		background-color: rgba(29, 36, 42, 0.9);
 	}
