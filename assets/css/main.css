@@ -3691,8 +3691,6 @@ input, select, textarea {
 				background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner_1.jpg");
 				background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner_1.jpg");
 				background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner_1.jpg");
-				background-repeat: no-repeat, no-repeat;
-				background-size: cover, contain;
 				-webkit-animation-delay: 5s;
 				animation-delay: 5s;
 			}
@@ -3702,8 +3700,6 @@ input, select, textarea {
 				background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner_2.jpg");
 				background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner_2.jpg");
 				background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner_2.jpg");
-				background-repeat: no-repeat, no-repeat;
-				background-size: cover, contain;
 				-webkit-animation-delay: 10s;
 				animation-delay: 10s;
 			}
@@ -3745,8 +3741,6 @@ input, select, textarea {
 				background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner_1.jpg");
 				background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner_1.jpg");
 				background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner_1.jpg");
-				background-repeat: no-repeat, no-repeat;
-				background-size: cover, contain;
 				-webkit-animation-delay: 5s;
 				animation-delay: 5s;
 			}
@@ -3756,8 +3750,6 @@ input, select, textarea {
 				background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner_2.jpg");
 				background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner_2.jpg");
 				background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner_2.jpg");
-				background-repeat: no-repeat, no-repeat;
-				background-size: cover, contain;
 				-webkit-animation-delay: 10s;
 				animation-delay: 10s;
 			}
