@@ -3488,7 +3488,7 @@ input, select, textarea {
 
 			#header h1 a {
 				border: 0;
-				color: #ffd6e8;
+				color: rgb(199, 134, 143);
 				display: block;
 				height: inherit;
 				line-height: inherit;
@@ -3524,7 +3524,7 @@ input, select, textarea {
 
 					#header nav > ul > li > a {
 						border: 0;
-						color: #ffd6e8;
+						color: rgb(199, 134, 143);
 						display: block;
 						font-size: 0.8em;
 						letter-spacing: 0.225em;
