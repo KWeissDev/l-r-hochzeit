@@ -3678,10 +3678,12 @@ input, select, textarea {
 			outline: 0;
 			padding-left: 0.225em;
 			position: absolute;
+			display: block;
 			text-align: center;
 			text-transform: uppercase;
 			width: 16em;
 			z-index: 1;
+			padding-top: 1.5em;
 		}
 
 			#banner .more:after {
@@ -3689,7 +3691,7 @@ input, select, textarea {
 				background-position: center;
 				background-repeat: no-repeat;
 				background-size: contain;
-				bottom: 4em;
+				bottom: 2em;
 				content: '';
 				display: block;
 				height: 1.5em;
