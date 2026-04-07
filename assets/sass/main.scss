@@ -1606,26 +1606,24 @@
 						linear-gradient(_palette(fg-bold), _palette(fg-bold)) right center / calc(50% - 0.75em) 2px no-repeat;
 					color: _palette(fg-bold);
 					content: '♥';
-					display: flex;
+					display: block;
 					font-size: 0.65em;
-					height: 1.2em;
-					align-items: center;
-					justify-content: center;
+					height: 1em;
 					line-height: 1;
 					position: absolute;
 					text-align: center;
 					width: 100%;
 				}
 
-				&:before {
-					top: -0.7em;
-					left: 0;
-				}
+			&:before {
+				top: 0;
+				left: 0;
+			}
 
-				&:after {
-					bottom: -0.7em;
-					right: 0;
-				}
+			&:after {
+				bottom: 0;
+				right: 0;
+			}
 		}
 
 		p {
