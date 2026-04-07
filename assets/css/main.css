@@ -3612,11 +3612,11 @@ input, select, textarea {
 			opacity: 0;
 		}
 
-		10%, 45% {
+		7%, 31% {
 			opacity: 1;
 		}
 
-		50% {
+		35% {
 			opacity: 0;
 		}
 
@@ -3628,11 +3628,11 @@ input, select, textarea {
 			opacity: 0;
 		}
 
-		10%, 45% {
+		7%, 31% {
 			opacity: 1;
 		}
 
-		50% {
+		35% {
 			opacity: 0;
 		}
 
@@ -3666,8 +3666,8 @@ input, select, textarea {
 		}
 
 			#banner .banner-slideshow .banner-slide {
-				-webkit-animation: bannerBackgroundSlideshow 10s infinite;
-				animation: bannerBackgroundSlideshow 10s infinite;
+				-webkit-animation: bannerBackgroundSlideshow 15s infinite;
+				animation: bannerBackgroundSlideshow 15s infinite;
 				background-attachment: fixed;
 				background-position: center center;
 				background-repeat: no-repeat;
@@ -3678,21 +3678,30 @@ input, select, textarea {
 			}
 
 			#banner .banner-slideshow .banner-slide-1 {
-				background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner_1.jpg");
-				background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner_1.jpg");
-				background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner_1.jpg");
-				background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner_1.jpg");
+				background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+				background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+				background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+				background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
 				-webkit-animation-delay: 0s;
 				animation-delay: 0s;
 			}
 
 			#banner .banner-slideshow .banner-slide-2 {
+				background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner_1.jpg");
+				background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner_1.jpg");
+				background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner_1.jpg");
+				background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner_1.jpg");
+				-webkit-animation-delay: 5s;
+				animation-delay: 5s;
+			}
+
+			#banner .banner-slideshow .banner-slide-3 {
 				background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner_2.jpg");
 				background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner_2.jpg");
 				background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner_2.jpg");
 				background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner_2.jpg");
-				-webkit-animation-delay: 5s;
-				animation-delay: 5s;
+				-webkit-animation-delay: 10s;
+				animation-delay: 10s;
 			}
 
 		#banner .inner {
@@ -3707,8 +3716,8 @@ input, select, textarea {
 		}
 
 			#banner .banner-slideshow .banner-slide {
-				-webkit-animation: bannerBackgroundSlideshow 10s infinite;
-				animation: bannerBackgroundSlideshow 10s infinite;
+				-webkit-animation: bannerBackgroundSlideshow 15s infinite;
+				animation: bannerBackgroundSlideshow 15s infinite;
 				background-attachment: fixed;
 				background-position: center center;
 				background-repeat: no-repeat;
@@ -3719,21 +3728,30 @@ input, select, textarea {
 			}
 
 			#banner .banner-slideshow .banner-slide-1 {
-				background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner_1.jpg");
-				background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner_1.jpg");
-				background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner_1.jpg");
-				background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner_1.jpg");
+				background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+				background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+				background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+				background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
 				-webkit-animation-delay: 0s;
 				animation-delay: 0s;
 			}
 
 			#banner .banner-slideshow .banner-slide-2 {
+				background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner_1.jpg");
+				background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner_1.jpg");
+				background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner_1.jpg");
+				background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner_1.jpg");
+				-webkit-animation-delay: 5s;
+				animation-delay: 5s;
+			}
+
+			#banner .banner-slideshow .banner-slide-3 {
 				background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner_2.jpg");
 				background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner_2.jpg");
 				background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner_2.jpg");
 				background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner_2.jpg");
-				-webkit-animation-delay: 5s;
-				animation-delay: 5s;
+				-webkit-animation-delay: 10s;
+				animation-delay: 10s;
 			}
 
 		#banner .inner {
