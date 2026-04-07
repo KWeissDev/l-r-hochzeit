@@ -4030,16 +4030,87 @@ input, select, textarea {
 
 /* Landing */
 
+	@-webkit-keyframes landingBackgroundSlideshow {
+
+		0%, 100% {
+			opacity: 0;
+		}
+
+		6%, 27% {
+			opacity: 1;
+		}
+
+		33% {
+			opacity: 0;
+		}
+
+	}
+
+	@keyframes landingBackgroundSlideshow {
+
+		0%, 100% {
+			opacity: 0;
+		}
+
+		6%, 27% {
+			opacity: 1;
+		}
+
+		33% {
+			opacity: 0;
+		}
+
+	}
+
 	body.landing #page-wrapper {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		padding-top: 0;
+		position: relative;
+	}
+
+	body.landing #page-wrapper .background-slideshow {
+		inset: 0;
+		pointer-events: none;
+		position: fixed;
+		z-index: -1;
+	}
+
+	body.landing #page-wrapper .background-slideshow .slide {
+		-webkit-animation: landingBackgroundSlideshow 15s infinite;
+		animation: landingBackgroundSlideshow 15s infinite;
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
-		padding-top: 0;
+		inset: 0;
+		opacity: 0;
+		position: absolute;
+	}
+
+	body.landing #page-wrapper .background-slideshow .slide-1 {
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		-webkit-animation-delay: 0s;
+		animation-delay: 0s;
+	}
+
+	body.landing #page-wrapper .background-slideshow .slide-2 {
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner_1.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner_1.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner_1.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner_1.jpg");
+		-webkit-animation-delay: 5s;
+		animation-delay: 5s;
+	}
+
+	body.landing #page-wrapper .background-slideshow .slide-3 {
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner_2.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner_2.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner_2.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner_2.jpg");
+		-webkit-animation-delay: 10s;
+		animation-delay: 10s;
 	}
 
 	body.landing #header {
@@ -4054,6 +4125,10 @@ input, select, textarea {
 
 	body.is-mobile.landing #page-wrapper {
 		background: none;
+	}
+
+	body.is-mobile.landing #page-wrapper .background-slideshow {
+		display: none;
 	}
 
 	body.is-mobile.landing #banner,
