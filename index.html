@@ -68,7 +68,7 @@
 							<header class="major">
 								<h2 class="sommerhochzeit">Countdown<br /></h2>
 								<p>Bis zur Hochzeit am 01.08.2026 sind es noch:</p>
-								<p id="countdown-timer">Lade Countdown ...</p>
+							<div id="countdown-timer" class="countdown-grid" aria-live="polite">Lade Countdown ...</div>
 							</header>
 						</div>
 					</section>
@@ -192,7 +192,11 @@
 						const minutes = Math.floor((diffMs / (1000 * 60)) % 60);
 						const seconds = Math.floor((diffMs / 1000) % 60);
 
-						countdownElement.textContent = days + ' Tage, ' + hours + ' Stunden, ' + minutes + ' Minuten, ' + seconds + ' Sekunden';
+						countdownElement.innerHTML =
+							'<div class="countdown-item"><span class="countdown-value">' + days + '</span><span class="countdown-label">Tage</span></div>' +
+							'<div class="countdown-item"><span class="countdown-value">' + hours + '</span><span class="countdown-label">Stunden</span></div>' +
+							'<div class="countdown-item"><span class="countdown-value">' + minutes + '</span><span class="countdown-label">Minuten</span></div>' +
+							'<div class="countdown-item"><span class="countdown-value">' + seconds + '</span><span class="countdown-label">Sekunden</span></div>';
 					}
 
 					updateCountdown();
