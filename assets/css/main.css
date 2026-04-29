@@ -2850,6 +2850,10 @@ input, select, textarea {
 				text-transform: none;
 			}
 
+			.wrapper.style1 #one-copy h2.sommerhochzeit:after {
+				display: none;
+			}
+
 				.wrapper.style1 .countdown-timer {
 					display: flex;
 					justify-content: center;
