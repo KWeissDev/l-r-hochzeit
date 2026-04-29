@@ -66,10 +66,9 @@
 					<section id="one-copy" class="wrapper style1 special" style="background: #ffffff;">
 						<div class="inner">
 							<header class="major">
-								<h2 class="sommerhochzeit">Sommerhochzeit<br /></h2>
-								<p>Zu unserer Hochzeit am 01. August 2026 laden wir euch recht herzlich ein!</p>
-								<p>Liebe Grüße,</p>
-								<p>Franzi & Lukas</p>
+								<h2 class="sommerhochzeit">Countdown<br /></h2>
+								<p>Bis zur Hochzeit am 01.08.2026 sind es noch:</p>
+								<p id="countdown-timer">Lade Countdown ...</p>
 							</header>
 							<ul class="icons major single-icon">
 								<li><span class="icon fa-heart major style2"><span class="label">Herz</span></span></li>
@@ -177,6 +176,32 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script>
+				(function () {
+					const targetDate = new Date('2026-08-01T00:00:00');
+					const countdownElement = document.getElementById('countdown-timer');
+
+					function updateCountdown() {
+						const now = new Date();
+						const diffMs = targetDate - now;
+
+						if (diffMs <= 0) {
+							countdownElement.textContent = 'Heute ist die Hochzeit!';
+							return;
+						}
+
+						const days = Math.floor(diffMs / (1000 * 60 * 60 * 24));
+						const hours = Math.floor((diffMs / (1000 * 60 * 60)) % 24);
+						const minutes = Math.floor((diffMs / (1000 * 60)) % 60);
+						const seconds = Math.floor((diffMs / 1000) % 60);
+
+						countdownElement.textContent = days + ' Tage, ' + hours + ' Stunden, ' + minutes + ' Minuten, ' + seconds + ' Sekunden';
+					}
+
+					updateCountdown();
+					setInterval(updateCountdown, 1000);
+				})();
+			</script>
 
 	</body>
 </html>
