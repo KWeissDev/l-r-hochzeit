@@ -1347,6 +1347,38 @@
 		&.style1 {
 			@include wrapper(accent1);
 
+			#countdown-timer.countdown-grid {
+				display: grid;
+				grid-template-columns: repeat(4, minmax(5em, 1fr));
+				gap: 0.75em;
+				max-width: 26em;
+				margin: 1em auto 0;
+
+				.countdown-item {
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+					line-height: 1.1;
+				}
+
+				.countdown-value {
+					font-size: 1.9em;
+					font-weight: 700;
+					color: #4b3d2e;
+				}
+
+				.countdown-label {
+					font-family: 'Cookie', 'Open Sans', Helvetica, sans-serif;
+					font-size: 1.25em;
+					color: rgb(199, 134, 143);
+					letter-spacing: 0.03em;
+				}
+
+				@include breakpoint('<=small') {
+					grid-template-columns: repeat(2, minmax(5em, 1fr));
+				}
+			}
+
 			h2.sommerhochzeit {
 				color: #c24f78;
 				color: #ffd6e8;
