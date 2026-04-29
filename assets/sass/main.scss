@@ -1347,14 +1347,6 @@
 		&.style1 {
 			@include wrapper(accent1);
 
-				#one-copy header.major h2.sommerhochzeit {
-					border-bottom: 0;
-
-					&:after {
-						display: none;
-					}
-				}
-
 				h2.sommerhochzeit {
 				color: #c24f78;
 				color: #ffd6e8;
