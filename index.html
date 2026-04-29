@@ -68,7 +68,11 @@
 							<header class="major">
 								<h2 class="sommerhochzeit">Countdown<br /></h2>
 								<p>Bis zur Hochzeit am 01.08.2026 sind es noch:</p>
-								<p id="countdown-timer">Lade Countdown ...</p>
+									<div id="countdown-timer" class="countdown-timer" aria-live="polite">
+										<div class="countdown-item"><span class="countdown-value">--</span><span class="countdown-label">Tage</span></div>
+										<div class="countdown-item"><span class="countdown-value">--</span><span class="countdown-label">Stunden</span></div>
+										<div class="countdown-item"><span class="countdown-value">--</span><span class="countdown-label">Minuten</span></div>
+									</div>
 							</header>
 						</div>
 					</section>
@@ -176,23 +180,28 @@
 			<script>
 				(function () {
 					const targetDate = new Date('2026-08-01T00:00:00');
-					const countdownElement = document.getElementById('countdown-timer');
+						const countdownElement = document.getElementById('countdown-timer');
+						const dayElement = countdownElement.querySelector('.countdown-item:nth-child(1) .countdown-value');
+						const hourElement = countdownElement.querySelector('.countdown-item:nth-child(2) .countdown-value');
+						const minuteElement = countdownElement.querySelector('.countdown-item:nth-child(3) .countdown-value');
 
 					function updateCountdown() {
 						const now = new Date();
 						const diffMs = targetDate - now;
 
 						if (diffMs <= 0) {
-							countdownElement.textContent = 'Heute ist die Hochzeit!';
+							dayElement.textContent = '0';
+							hourElement.textContent = '0';
+							minuteElement.textContent = '0';
 							return;
 						}
 
 						const days = Math.floor(diffMs / (1000 * 60 * 60 * 24));
 						const hours = Math.floor((diffMs / (1000 * 60 * 60)) % 24);
 						const minutes = Math.floor((diffMs / (1000 * 60)) % 60);
-						const seconds = Math.floor((diffMs / 1000) % 60);
-
-						countdownElement.textContent = days + ' Tage, ' + hours + ' Stunden, ' + minutes + ' Minuten, ' + seconds + ' Sekunden';
+						dayElement.textContent = days;
+						hourElement.textContent = hours;
+						minuteElement.textContent = minutes;
 					}
 
 					updateCountdown();
