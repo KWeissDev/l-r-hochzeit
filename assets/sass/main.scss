@@ -1372,6 +1372,12 @@
 				}
 			}
 
+			#one-copy h2.sommerhochzeit {
+				&:after {
+					display: none;
+				}
+			}
+
 		&.style2 {
 			background-color: _palette(bg);
 		}
