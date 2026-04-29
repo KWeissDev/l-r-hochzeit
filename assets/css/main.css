@@ -2839,6 +2839,15 @@ input, select, textarea {
 				color: #4b3d2e;
 			}
 
+
+			.wrapper.style1 #one-copy header.major h2.sommerhochzeit {
+				border-bottom: 0;
+			}
+
+				.wrapper.style1 #one-copy header.major h2.sommerhochzeit:after {
+					display: none;
+				}
+
 			.wrapper.style1 h2.sommerhochzeit {
 				color: rgb(199, 134, 143);
 				font-family: 'Cookie', "Open Sans", Helvetica, sans-serif;
