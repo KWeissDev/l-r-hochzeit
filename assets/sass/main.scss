@@ -1347,7 +1347,7 @@
 		&.style1 {
 			@include wrapper(accent1);
 
-			h2.sommerhochzeit {
+				h2.sommerhochzeit {
 				color: #c24f78;
 				color: #ffd6e8;
 				font-family: 'Cookie', 'Open Sans', Helvetica, sans-serif;
@@ -1358,22 +1358,19 @@
 				position: relative;
 				text-transform: none;
 
-				&:after {
-					content: '\2665';
-					color: #c7868f;
-					font-size: 0.5em;
-					line-height: 1;
-					background-color: #f2e7d5;
-					padding: 0 0.35em;
-					position: absolute;
-					left: 50%;
-					bottom: -0.25em;
-					transform: translateX(-50%);
-					display: block;
-					height: auto;
+					&:after {
+						content: '';
+						background-color: #c7868f;
+						width: 6rem;
+						height: 1px;
+						position: absolute;
+						left: 50%;
+						bottom: -0.25em;
+						transform: translateX(-50%);
+						display: block;
+					}
 				}
 			}
-		}
 
 		&.style2 {
 			background-color: _palette(bg);
