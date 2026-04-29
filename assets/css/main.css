@@ -2916,7 +2916,6 @@ input, select, textarea {
 				@media screen and (max-width: 736px) {
 
 					.wrapper.style1 .countdown-timer {
-						flex-direction: column;
 						gap: 2em;
 					}
 
