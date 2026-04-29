@@ -2849,17 +2849,6 @@ input, select, textarea {
 				position: relative;
 				text-transform: none;
 			}
-				.wrapper.style1 h2.sommerhochzeit:after {
-					content: '';
-					background-color: #c7868f;
-					width: 6rem;
-					height: 1px;
-					position: absolute;
-					left: 50%;
-					bottom: -0.25em;
-					transform: translateX(-50%);
-					display: block;
-				}
 
 				.wrapper.style1 .countdown-timer {
 					display: flex;
