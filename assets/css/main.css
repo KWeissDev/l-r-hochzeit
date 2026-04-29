@@ -3815,6 +3815,13 @@ input, select, textarea {
 					width: 100%;
 				}
 
+				#one-copy h2:before, #one-copy h2:after {
+					background: linear-gradient(currentColor, currentColor) center center/100% 2px no-repeat;
+					content: '';
+					font-family: inherit;
+					font-weight: inherit;
+				}
+
 				#banner h2:before {
 					top: -0.7em;
 					left: 0;
