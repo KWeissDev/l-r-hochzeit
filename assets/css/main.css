@@ -183,7 +183,7 @@ input, select, textarea {
 		}
 
 	h2 {
-		font-size: 1.35em;
+		font-size: 1.15em;
 		line-height: 1.75em;
 	}
 
@@ -2059,7 +2059,7 @@ input, select, textarea {
 			border-radius: 3px;
 			border: solid 2px #fff;
 			display: inline-block;
-			font-size: 1.35em;
+			font-size: 1.15em;
 			height: calc(3em + 2px);
 			line-height: 3em;
 			text-align: center;
@@ -2489,7 +2489,7 @@ input, select, textarea {
 		input[type="button"].large,
 		button.large,
 		.button.large {
-			font-size: 1.35em;
+			font-size: 1.15em;
 		}
 
 		input[type="submit"].primary,
@@ -3568,7 +3568,7 @@ input, select, textarea {
 			right: 0;
 			top: 0;
 			vertical-align: middle;
-			width: 7em;
+			width: 5.6em;
 		}
 
 		@media screen and (max-width: 736px) {
@@ -3629,7 +3629,7 @@ input, select, textarea {
 				display: block;
 				height: inherit;
 				font-family: 'Cookie', "Open Sans", Helvetica, sans-serif;
-				font-size: 2em;
+				font-size: 1.6em;
 				font-weight: 400;
 				line-height: inherit;
 				letter-spacing: 0.04em;
@@ -3977,7 +3977,7 @@ input, select, textarea {
 			bottom: 0;
 			color: inherit;
 			font-size: 0.8em;
-			height: 8.5em;
+			height: 6.2em;
 			left: 50%;
 			letter-spacing: 0.225em;
 			margin-left: -8.5em;
@@ -4349,7 +4349,7 @@ input, select, textarea {
 		.wrapper.style1 .timeline-item {
 			display: grid;
 			gap: 2.2em;
-			grid-template-columns: minmax(0, 1fr) 8.5em minmax(0, 1fr);
+			grid-template-columns: minmax(0, 1fr) 6.2em minmax(0, 1fr);
 			margin-bottom: 2.8em;
 			position: relative;
 		}
@@ -4373,7 +4373,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 .timeline-content h3 {
-			font-size: 2.2em;
+			font-size: 1.55em;
 			font-weight: 600;
 			line-height: 1.25;
 			margin-bottom: 0.5em;
@@ -4381,7 +4381,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 .timeline-content p {
-			font-size: 1.45em;
+			font-size: 1.1em;
 			line-height: 1.5;
 			margin: 0;
 		}
@@ -4392,43 +4392,43 @@ input, select, textarea {
 			border-radius: 50%;
 			display: flex;
 			grid-column: 2;
-			height: 8.5em;
+			height: 6.2em;
 			justify-content: center;
 			margin: 0 auto;
-			width: 8.5em;
+			width: 6.2em;
 			z-index: 1;
 		}
 
 		.wrapper.style1 .timeline-marker .icon {
 			color: #33353a;
-			font-size: 2.9em;
+			font-size: 1.6em;
 		}
 
 		@media screen and (max-width: 1280px) {
 			.wrapper.style1 .timeline-content h3 {
-				font-size: 1.95em;
+				font-size: 1.45em;
 			}
 			.wrapper.style1 .timeline-content p {
-				font-size: 1.3em;
+				font-size: 0.95em;
 			}
 		}
 
 		@media screen and (max-width: 980px) {
 
 			.wrapper.style1 .timeline::before {
-				left: 3.5em;
+				left: 2.8em;
 			}
 
 			.wrapper.style1 .timeline-item {
 				gap: 1.4em;
-				grid-template-columns: 7em minmax(0, 1fr);
+				grid-template-columns: 5.6em minmax(0, 1fr);
 			}
 
 			.wrapper.style1 .timeline-marker {
 				grid-column: 1;
-				height: 7em;
+				height: 5.6em;
 				margin: 0;
-				width: 7em;
+				width: 5.6em;
 			}
 
 			.wrapper.style1 .timeline-item .timeline-content,
@@ -4444,28 +4444,28 @@ input, select, textarea {
 
 			.wrapper.style1 .timeline-item {
 				gap: 1.1em;
-				grid-template-columns: 5.4em minmax(0, 1fr);
+				grid-template-columns: 4.6em minmax(0, 1fr);
 			}
 
 			.wrapper.style1 .timeline::before {
-				left: 2.7em;
+				left: 2.3em;
 			}
 
 			.wrapper.style1 .timeline-marker {
-				height: 5.4em;
-				width: 5.4em;
+				height: 4.6em;
+				width: 4.6em;
 			}
 
 			.wrapper.style1 .timeline-marker .icon {
-				font-size: 2em;
+				font-size: 1.6em;
 			}
 
 			.wrapper.style1 .timeline-content h3 {
-				font-size: 1.35em;
+				font-size: 1.15em;
 			}
 
 			.wrapper.style1 .timeline-content p {
-				font-size: 1.05em;
+				font-size: 0.95em;
 			}
 
 		}
