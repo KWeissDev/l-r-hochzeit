@@ -4445,17 +4445,21 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 .timeline-content {
+			align-self: center;
 			padding: 0.2em 0;
 			text-align: left;
+			width: 100%;
 		}
 
 		.wrapper.style1 .timeline-item:nth-child(odd) .timeline-content {
 			grid-column: 1;
+			justify-self: end;
 			text-align: right;
 		}
 
 		.wrapper.style1 .timeline-item:nth-child(even) .timeline-content {
 			grid-column: 3;
+			justify-self: start;
 		}
 
 		.wrapper.style1 .timeline-content h3 {
