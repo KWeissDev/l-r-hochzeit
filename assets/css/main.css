@@ -2911,6 +2911,8 @@ input, select, textarea {
 
 			.wrapper.style1 .location-grid {
 				display: flex;
+				flex-direction: column;
+				gap: 1.5em;
 				justify-content: center;
 			}
 
