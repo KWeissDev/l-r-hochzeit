@@ -2973,6 +2973,62 @@ input, select, textarea {
 				margin-top: 0.3em;
 			}
 
+			.wrapper.style1 .trauzeugen-intro {
+				font-size: 2rem;
+				margin: 0 auto 2.5em auto;
+				max-width: 34em;
+			}
+
+			.wrapper.style1 .trauzeugen-grid {
+				display: grid;
+				gap: 2.5em;
+				grid-template-columns: repeat(2, minmax(250px, 1fr));
+				margin: 0 auto;
+				max-width: 860px;
+			}
+
+			.wrapper.style1 .trauzeuge-card {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				text-align: center;
+			}
+
+			.wrapper.style1 .trauzeuge-image {
+				border-radius: 50%;
+				height: 220px;
+				margin-bottom: 1.2em;
+				object-fit: cover;
+				width: 220px;
+			}
+
+			.wrapper.style1 .trauzeuge-card h3 {
+				margin-bottom: 0.2em;
+			}
+
+			.wrapper.style1 .trauzeuge-role {
+				font-style: italic;
+				margin-bottom: 1.1em;
+			}
+
+			.wrapper.style1 .trauzeuge-contact {
+				align-items: center;
+				display: flex;
+				font-size: 1.05em;
+				gap: 0.45em;
+				justify-content: center;
+				margin-bottom: 0.35em;
+			}
+
+			.wrapper.style1 .trauzeuge-contact .icon {
+				color: rgb(199, 134, 143);
+				min-width: 1.1em;
+			}
+
+			.wrapper.style1 .trauzeuge-contact a {
+				border-bottom: none;
+			}
+
 			@media screen and (max-width: 980px) {
 
 				.wrapper.style1 .location-card {
@@ -2981,6 +3037,15 @@ input, select, textarea {
 
 				.wrapper.style1 .map-window {
 					min-height: 160px;
+				}
+
+				.wrapper.style1 .trauzeugen-intro {
+					font-size: 1.5rem;
+				}
+
+				.wrapper.style1 .trauzeugen-grid {
+					grid-template-columns: 1fr;
+					max-width: 320px;
 				}
 
 			}
