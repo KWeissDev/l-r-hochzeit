@@ -4328,3 +4328,124 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
+		.wrapper.style1 .timeline {
+			margin: 0 auto;
+			max-width: 980px;
+			position: relative;
+		}
+
+		.wrapper.style1 .timeline::before {
+			background: rgba(75, 61, 46, 0.2);
+			content: '';
+			height: 100%;
+			left: 50%;
+			position: absolute;
+			top: 0;
+			transform: translateX(-50%);
+			width: 2px;
+		}
+
+		.wrapper.style1 .timeline-item {
+			display: grid;
+			gap: 2em;
+			grid-template-columns: 1fr 7.5em 1fr;
+			margin-bottom: 2.5em;
+			position: relative;
+		}
+
+		.wrapper.style1 .timeline-item:last-child {
+			margin-bottom: 0;
+		}
+
+		.wrapper.style1 .timeline-content {
+			background: rgba(255, 255, 255, 0.6);
+			border-radius: 1em;
+			padding: 1.5em;
+			text-align: left;
+		}
+
+		.wrapper.style1 .timeline-item:nth-child(odd) .timeline-content {
+			grid-column: 1;
+		}
+
+		.wrapper.style1 .timeline-item:nth-child(even) .timeline-content {
+			grid-column: 3;
+		}
+
+		.wrapper.style1 .timeline-content h3 {
+			font-size: 1.55em;
+			margin-bottom: 0.4em;
+			text-transform: none;
+		}
+
+		.wrapper.style1 .timeline-content p {
+			margin: 0;
+		}
+
+		.wrapper.style1 .timeline-marker {
+			align-items: center;
+			background: rgb(199, 134, 143);
+			border-radius: 50%;
+			display: flex;
+			grid-column: 2;
+			height: 7.5em;
+			justify-content: center;
+			width: 7.5em;
+			z-index: 1;
+		}
+
+		.wrapper.style1 .timeline-marker .icon {
+			color: #33353a;
+			font-size: 2.5em;
+		}
+
+		@media screen and (max-width: 980px) {
+
+			.wrapper.style1 .timeline::before {
+				left: 3.2em;
+			}
+
+			.wrapper.style1 .timeline-item {
+				grid-template-columns: 6.4em 1fr;
+			}
+
+			.wrapper.style1 .timeline-marker {
+				grid-column: 1;
+				height: 6.4em;
+				width: 6.4em;
+			}
+
+			.wrapper.style1 .timeline-item .timeline-content,
+			.wrapper.style1 .timeline-item:nth-child(odd) .timeline-content,
+			.wrapper.style1 .timeline-item:nth-child(even) .timeline-content {
+				grid-column: 2;
+			}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			.wrapper.style1 .timeline-item {
+				gap: 1.25em;
+				grid-template-columns: 5.2em 1fr;
+			}
+
+			.wrapper.style1 .timeline::before {
+				left: 2.6em;
+			}
+
+			.wrapper.style1 .timeline-marker {
+				height: 5.2em;
+				width: 5.2em;
+			}
+
+			.wrapper.style1 .timeline-marker .icon {
+				font-size: 2em;
+			}
+
+			.wrapper.style1 .timeline-content h3 {
+				font-size: 1.3em;
+			}
+
+		}
