@@ -2929,7 +2929,7 @@ input, select, textarea {
 
 			.wrapper.style1.quote-section .quote-text,
 			.wrapper.style1.quote-section .quote-author {
-				color: rgb(199, 134, 143);
+				color: #ffffff;
 				font-family: 'Cookie', "Open Sans", Helvetica, sans-serif;
 				text-transform: none;
 				margin: 0;
