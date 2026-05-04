@@ -2973,6 +2973,23 @@ input, select, textarea {
 				margin-top: 0.3em;
 			}
 
+			.wrapper.style1 .brautpaar-intro {
+				font-size: 1.35rem;
+				margin: 0 auto;
+				max-width: 40em;
+			}
+
+			.wrapper.style1 .brautpaar-grid {
+				margin-top: 1.5em;
+			}
+
+			.wrapper.style1 .brautpaar-card .brautpaar-text {
+				font-size: 1.05em;
+				line-height: 1.7;
+				margin-top: 0.8em;
+				max-width: 24em;
+			}
+
 			.wrapper.style1 .trauzeugen-intro {
 				font-size: 1.35rem;
 				margin: 0 auto 2.5em auto;
@@ -3037,6 +3054,10 @@ input, select, textarea {
 
 				.wrapper.style1 .map-window {
 					min-height: 160px;
+				}
+
+				.wrapper.style1 .brautpaar-intro {
+					font-size: 1.15rem;
 				}
 
 				.wrapper.style1 .trauzeugen-intro {
