@@ -4576,7 +4576,7 @@ input, select, textarea {
 			color: #2f3135;
 			cursor: pointer;
 			display: flex;
-			font-size: 1.65em;
+			font-size: 1.05em;
 			font-weight: 700;
 			gap: 0.8em;
 			line-height: 1.35;
@@ -4616,13 +4616,13 @@ input, select, textarea {
 
 		@media screen and (max-width: 980px) {
 			.wrapper.style1 .faq-item summary {
-				font-size: 1.4em;
+				font-size: 1.05em;
 			}
 		}
 
 		@media screen and (max-width: 736px) {
 			.wrapper.style1 .faq-item summary {
-				font-size: 1.1em;
+				font-size: 0.95em;
 				gap: 0.6em;
 				padding: 0.8em 0;
 			}
