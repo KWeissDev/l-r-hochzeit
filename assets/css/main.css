@@ -2930,25 +2930,21 @@ input, select, textarea {
 			}
 
 			.wrapper.style1 .map-window {
-				align-items: center;
 				background: #ffffff;
 				border-radius: 0.9em;
-				color: #4b3d2e;
-				display: flex;
-				flex-direction: column;
-				font-size: 1.1em;
-				font-weight: 600;
-				gap: 0.75em;
-				justify-content: center;
 				min-height: 190px;
-				padding: 1.5em;
+				overflow: hidden;
+				padding: 0;
 				text-decoration: none;
 				transition: transform 0.2s ease, box-shadow 0.2s ease;
 			}
 
-			.wrapper.style1 .map-window .icon {
-				color: rgb(199, 134, 143);
-				font-size: 2.6em;
+			.wrapper.style1 .map-window iframe {
+				border: 0;
+				display: block;
+				height: 100%;
+				min-height: 190px;
+				width: 100%;
 			}
 
 			.wrapper.style1 .map-window:hover {
