@@ -4446,6 +4446,7 @@ input, select, textarea {
 
 		.wrapper.style1 .timeline-content {
 			align-self: center;
+			grid-row: 1;
 			padding: 0.2em 0;
 			text-align: left;
 			width: 100%;
@@ -4478,6 +4479,7 @@ input, select, textarea {
 
 		.wrapper.style1 .timeline-marker {
 			align-items: center;
+			grid-row: 1;
 			background: rgb(199, 134, 143);
 			border-radius: 50%;
 			display: flex;
