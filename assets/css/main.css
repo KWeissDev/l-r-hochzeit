@@ -4447,6 +4447,11 @@ input, select, textarea {
 		background-attachment: scroll;
 	}
 
+	body.is-mobile .wrapper.style1.quote-section {
+		background-attachment: scroll;
+		background-position: center center;
+	}
+
 	body.is-mobile #banner .banner-slideshow .banner-slide-1 {
 		-webkit-animation: none;
 		animation: none;
