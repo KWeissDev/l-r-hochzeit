@@ -2917,10 +2917,10 @@ input, select, textarea {
 
 
 			.wrapper.style1.quote-section {
-				background-image: -moz-linear-gradient(top, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("../../images/banner.jpg");
-				background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("../../images/banner.jpg");
-				background-image: -ms-linear-gradient(top, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("../../images/banner.jpg");
-				background-image: linear-gradient(top, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("../../images/banner.jpg");
+				background-image: -moz-linear-gradient(top, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("../../images/banner_1.jpg");
+				background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("../../images/banner_1.jpg");
+				background-image: -ms-linear-gradient(top, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("../../images/banner_1.jpg");
+				background-image: linear-gradient(top, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("../../images/banner_1.jpg");
 				background-position: center center;
 				background-size: cover;
 				background-attachment: fixed;
