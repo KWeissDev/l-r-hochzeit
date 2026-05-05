@@ -1735,7 +1735,6 @@
 					font-size: 0.65em;
 					height: 1em;
 					line-height: 1;
-					@include vendor('transform', 'translateX(0.08em)');
 					position: absolute;
 					text-align: center;
 					width: 100%;
