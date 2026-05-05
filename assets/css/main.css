@@ -4442,6 +4442,24 @@ input, select, textarea {
 		background-color: rgba(29, 36, 42, 0.9);
 	}
 
+
+	body.is-mobile #banner .banner-slideshow .banner-slide {
+		background-attachment: scroll;
+	}
+
+	body.is-mobile #banner .banner-slideshow .banner-slide-1 {
+		-webkit-animation: none;
+		animation: none;
+		opacity: 1;
+	}
+
+	body.is-mobile #banner .banner-slideshow .banner-slide-2,
+	body.is-mobile #banner .banner-slideshow .banner-slide-3 {
+		-webkit-animation: none;
+		animation: none;
+		opacity: 0;
+	}
+
 	body.is-mobile.landing #page-wrapper {
 		background: none;
 	}
