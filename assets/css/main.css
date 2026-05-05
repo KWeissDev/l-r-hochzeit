@@ -4036,7 +4036,7 @@ input, select, textarea {
 					-webkit-transition-delay: 0.25s;
 					-ms-transition-delay: 0.25s;
 					transition-delay: 0.25s;
-					background: linear-gradient(#fff, #fff) left center/calc(50% - 0.9em) 2px no-repeat, linear-gradient(#fff, #fff) right center/calc(50% - 0.83em) 2px no-repeat;
+					background: linear-gradient(#fff, #fff) left center/calc(50% - 0.9em) 2px no-repeat, linear-gradient(#fff, #fff) right center/calc(50% - 0.55em) 2px no-repeat;
 					color: #fff;
 					content: '\f004';
 					font-family: 'Font Awesome 5 Free';
