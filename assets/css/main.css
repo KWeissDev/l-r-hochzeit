@@ -4036,33 +4036,11 @@ input, select, textarea {
 					-webkit-transition-delay: 0.25s;
 					-ms-transition-delay: 0.25s;
 					transition-delay: 0.25s;
-					background: linear-gradient(#fff, #fff) left center/calc(50% - 0.9em) 2px no-repeat, linear-gradient(#fff, #fff) right center/calc(50% - 0.55em) 2px no-repeat;
-					color: #fff;
-					content: '\f004';
-					font-family: 'Font Awesome 5 Free';
-					font-weight: 900;
-					display: -moz-flex;
-					display: -webkit-flex;
-					display: -ms-flex;
-					display: flex;
-					font-size: 0.65em;
-					height: 1.2em;
-					padding: 0 0.15em;
-					-moz-align-items: center;
-					-webkit-align-items: center;
-					-ms-align-items: center;
-					align-items: center;
-					-moz-justify-content: center;
-					-webkit-justify-content: center;
-					-ms-justify-content: center;
-					justify-content: center;
-					line-height: 1;
-					-moz-transform: translateX(-0.05em);
-					-webkit-transform: translateX(-0.05em);
-					-ms-transform: translateX(-0.05em);
-					transform: translateX(-0.05em);
+					background: linear-gradient(#fff, #fff) center center/100% 2px no-repeat;
+					content: '';
+					display: block;
+					height: 1em;
 					position: absolute;
-					text-align: center;
 					width: 100%;
 				}
 
