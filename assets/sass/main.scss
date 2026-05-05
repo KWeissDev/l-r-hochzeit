@@ -2045,6 +2045,21 @@
 	}
 
 	body.is-mobile {
+		#banner .banner-slideshow .banner-slide {
+			background-attachment: scroll;
+		}
+
+		#banner .banner-slideshow .banner-slide-1 {
+			animation: none;
+			opacity: 1;
+		}
+
+		#banner .banner-slideshow .banner-slide-2,
+		#banner .banner-slideshow .banner-slide-3 {
+			animation: none;
+			opacity: 0;
+		}
+
 		&.landing {
 			#page-wrapper {
 				background: none;
